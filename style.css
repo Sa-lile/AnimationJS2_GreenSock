@@ -101,3 +101,79 @@ h1 {
     margin-left: 41px;
     background: #000;
 }
+
+/* Média queries*/
+
+@media only screen and (max-width: 1600px) {
+    .sphere {
+        width: 500px;
+    }
+
+    h1{
+        font-size: 120px;
+        left: 60%;
+    }
+}
+@media only screen and (max-width: 1250px) {
+    
+    h1{
+        font-size: 90px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    
+    .intro-container {
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 30px!important;
+        top: 0!important;
+        height: 70%;
+    }
+
+    .ligne2 {
+        display: noen;
+    }
+
+    .containerAccueil {
+        flex-direction: column;
+    }
+    .item {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    h1 {
+        text-align: center;
+        left: 0;
+        transform: translate(0%, 0%);
+        top: 5px;
+    }
+    
+    .sphere {
+        width: 300px;
+        top: 50%!important;
+        left: 50%!important;
+        margin: 0 auto !important;
+        position: relative;
+        transform: translate(-50%, -70%) !important;
+        display: inline-block !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .intro-container {
+        height: 60% !important;
+    }
+
+    h1{
+        font-size: 60px;
+    }
+    .sphere {
+        width: 250px;
+    }
+
+    .item {
+        font-size: 11px;
+    }
+}
