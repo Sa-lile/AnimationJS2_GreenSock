@@ -2,6 +2,8 @@
 body {
     margin: 0;
     padding: 0;
+    /* technique de l'pacité */
+    opacity: 0;
 }
 
 html {
@@ -81,4 +83,21 @@ h1 {
 .firstH1 {
     position: relative;
     opacity: 1;
+}
+
+.ligne1 {
+    position: relative;
+    margin-top: 40px;
+    width: 0;
+    height: 4px;
+    background: #000;
+}
+
+.ligne2 {
+    position: absolute;
+    height: 0;
+    width: 4px;
+    top: 0;
+    margin-left: 41px;
+    background: #000;
 }
